@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4812969657534643766}
   - component: {fileID: 4457710766390148923}
+  - component: {fileID: 8854534572069529022}
   m_Layer: 0
   m_Name: TreeWithLOD
   m_TagString: Untagged
@@ -47,11 +48,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.69056
+  - screenRelativeHeight: 0.4640049
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1387181788876176691}
-  - screenRelativeHeight: 0.4388365
+  - screenRelativeHeight: 0.17887475
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 862790727523059906}
@@ -60,6 +61,27 @@ LODGroup:
     renderers:
     - renderer: {fileID: 2533362736468712850}
   m_Enabled: 1
+--- !u!65 &8854534572069529022
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6709778764944025832}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 2.12, z: 1}
+  m_Center: {x: 0, y: 1.05, z: 0}
 --- !u!1001 &5616270231176857569
 PrefabInstance:
   m_ObjectHideFlags: 0
