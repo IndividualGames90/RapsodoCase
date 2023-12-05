@@ -15,7 +15,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &4812969657534643766
 Transform:
@@ -47,11 +47,11 @@ LODGroup:
   m_AnimateCrossFading: 0
   m_LastLODIsBillboard: 0
   m_LODs:
-  - screenRelativeHeight: 0.35501942
+  - screenRelativeHeight: 0.69056
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 1387181788876176691}
-  - screenRelativeHeight: 0.10964958
+  - screenRelativeHeight: 0.4388365
     fadeTransitionWidth: 0
     renderers:
     - renderer: {fileID: 862790727523059906}
@@ -108,9 +108,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -352735875682522065, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
       propertyPath: m_Name
       value: TreeWithLOD
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780066784804643028, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4742473837712756890, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
       propertyPath: m_FadeMode
@@ -123,6 +135,10 @@ PrefabInstance:
     - target: {fileID: 4742473837712756890, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
       propertyPath: m_LODs.Array.data[1].screenRelativeHeight
       value: 0.10964958
+      objectReference: {fileID: 0}
+    - target: {fileID: 5713465480843124222, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4742473837712756890, guid: 0f7cce8b980485745b1f8947a816d6dd, type: 3}
