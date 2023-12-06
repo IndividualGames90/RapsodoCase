@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3937454952426558814}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47,9 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 3937454952426558814}
   _lookAt: {fileID: 0}
-  _lookAtRotateAround: {fileID: 0}
-  _lookSpeed: 2
-  _moveSpeed: 2
+  _moveSpeed: 25
 --- !u!143 &3937454952426558814
 CharacterController:
   m_ObjectHideFlags: 0
