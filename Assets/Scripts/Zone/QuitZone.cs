@@ -1,3 +1,4 @@
+using Rapsodo.IndividualGames.Unity;
 using UnityEngine;
 
 namespace Rapsodo.IndividualGames.Zone
@@ -9,7 +10,10 @@ namespace Rapsodo.IndividualGames.Zone
     {
         private void OnTriggerEnter(Collider other)
         {
-            Application.Quit();
+            if (other.CompareTag(Tags.Player))
+            {
+                Application.Quit();
+            }
         }
     }
 }

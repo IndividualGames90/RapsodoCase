@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 98622112138408885, guid: 3be5dbe4099ab5e479b9b7b873265ede, type: 3}
       propertyPath: m_Name
-      value: Zone Variant
+      value: Zone.Info
       objectReference: {fileID: 0}
     - target: {fileID: 852866122336329728, guid: 3be5dbe4099ab5e479b9b7b873265ede, type: 3}
       propertyPath: m_LocalPosition.x
@@ -63,6 +63,10 @@ PrefabInstance:
     - target: {fileID: 2992935685151136592, guid: 3be5dbe4099ab5e479b9b7b873265ede, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.4341656
+      objectReference: {fileID: 0}
+    - target: {fileID: 5163440604349606082, guid: 3be5dbe4099ab5e479b9b7b873265ede, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5616443610583156399, guid: 3be5dbe4099ab5e479b9b7b873265ede, type: 3}
       propertyPath: m_Sprite
